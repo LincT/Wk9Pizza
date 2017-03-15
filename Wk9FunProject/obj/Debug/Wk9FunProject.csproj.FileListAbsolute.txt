@@ -1,0 +1,10 @@
+c:\users\linc\documents\visual studio 2015\Projects\Wk9FunProject\Wk9FunProject\bin\Debug\Wk9FunProject.exe.config
+c:\users\linc\documents\visual studio 2015\Projects\Wk9FunProject\Wk9FunProject\bin\Debug\Wk9FunProject.exe
+c:\users\linc\documents\visual studio 2015\Projects\Wk9FunProject\Wk9FunProject\bin\Debug\Wk9FunProject.pdb
+c:\users\linc\documents\visual studio 2015\Projects\Wk9FunProject\Wk9FunProject\obj\Debug\Wk9FunProject.csprojResolveAssemblyReference.cache
+c:\users\linc\documents\visual studio 2015\Projects\Wk9FunProject\Wk9FunProject\obj\Debug\Wk9FunProject.FormMain.resources
+c:\users\linc\documents\visual studio 2015\Projects\Wk9FunProject\Wk9FunProject\obj\Debug\Wk9FunProject.FormPizza.resources
+c:\users\linc\documents\visual studio 2015\Projects\Wk9FunProject\Wk9FunProject\obj\Debug\Wk9FunProject.Properties.Resources.resources
+c:\users\linc\documents\visual studio 2015\Projects\Wk9FunProject\Wk9FunProject\obj\Debug\Wk9FunProject.csproj.GenerateResource.Cache
+c:\users\linc\documents\visual studio 2015\Projects\Wk9FunProject\Wk9FunProject\obj\Debug\Wk9FunProject.exe
+c:\users\linc\documents\visual studio 2015\Projects\Wk9FunProject\Wk9FunProject\obj\Debug\Wk9FunProject.pdb
