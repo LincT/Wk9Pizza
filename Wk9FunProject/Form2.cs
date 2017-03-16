@@ -69,14 +69,14 @@ namespace Wk9FunProject
             {
                 pizza.Add(itemChecked.ToString());
             }
-            string result = "";
+            string result = "Pizza: \n";
             foreach (string item in pizza)
             {
-                result += item + "\n";
+                result += item + ", ";
             }
             MessageBox.Show(result);
-           
-            
+            this.Tag = result;
+            this.DialogResult = DialogResult.OK;
         }
 
     }

@@ -31,7 +31,7 @@
             this.btnPizza = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtItems = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.lblSubTotal = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -64,13 +64,14 @@
             this.button3.Text = "button3";
             this.button3.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // txtItems
             // 
-            this.textBox1.Location = new System.Drawing.Point(98, 12);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(178, 205);
-            this.textBox1.TabIndex = 3;
+            this.txtItems.AcceptsReturn = true;
+            this.txtItems.Location = new System.Drawing.Point(98, 12);
+            this.txtItems.Multiline = true;
+            this.txtItems.Name = "txtItems";
+            this.txtItems.Size = new System.Drawing.Size(178, 205);
+            this.txtItems.TabIndex = 3;
             // 
             // label1
             // 
@@ -97,7 +98,7 @@
             this.ClientSize = new System.Drawing.Size(284, 261);
             this.Controls.Add(this.lblSubTotal);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtItems);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.btnPizza);
@@ -113,7 +114,7 @@
         private System.Windows.Forms.Button btnPizza;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtItems;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lblSubTotal;
     }
