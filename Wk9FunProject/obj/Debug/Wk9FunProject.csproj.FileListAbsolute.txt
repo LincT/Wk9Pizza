@@ -9,6 +9,7 @@ c:\users\linc\documents\visual studio 2015\Projects\Wk9FunProject\Wk9FunProject\
 c:\users\linc\documents\visual studio 2015\Projects\Wk9FunProject\Wk9FunProject\obj\Debug\Wk9FunProject.exe
 c:\users\linc\documents\visual studio 2015\Projects\Wk9FunProject\Wk9FunProject\obj\Debug\Wk9FunProject.pdb
 <<<<<<< HEAD
+<<<<<<< HEAD
 C:\Users\Linc\Documents\GitHub\Wk9Pizza\Wk9FunProject\bin\Debug\Wk9FunProject.exe.config
 C:\Users\Linc\Documents\GitHub\Wk9Pizza\Wk9FunProject\obj\Debug\Wk9FunProject.exe
 C:\Users\Linc\Documents\GitHub\Wk9Pizza\Wk9FunProject\obj\Debug\Wk9FunProject.pdb
@@ -20,6 +21,8 @@ C:\Users\Linc\Documents\GitHub\Wk9Pizza\Wk9FunProject\obj\Debug\Wk9FunProject.Fo
 C:\Users\Linc\Documents\GitHub\Wk9Pizza\Wk9FunProject\obj\Debug\Wk9FunProject.Properties.Resources.resources
 C:\Users\Linc\Documents\GitHub\Wk9Pizza\Wk9FunProject\obj\Debug\Wk9FunProject.csproj.GenerateResource.Cache
 =======
+=======
+>>>>>>> origin/master
 C:\Users\Eric\Documents\Visual Studio 2015\Projects\Wk9Pizza\Wk9FunProject\bin\Debug\Wk9FunProject.exe.config
 C:\Users\Eric\Documents\Visual Studio 2015\Projects\Wk9Pizza\Wk9FunProject\obj\Debug\Wk9FunProject.exe
 C:\Users\Eric\Documents\Visual Studio 2015\Projects\Wk9Pizza\Wk9FunProject\obj\Debug\Wk9FunProject.pdb
@@ -30,4 +33,7 @@ C:\Users\Eric\Documents\Visual Studio 2015\Projects\Wk9Pizza\Wk9FunProject\obj\D
 C:\Users\Eric\Documents\Visual Studio 2015\Projects\Wk9Pizza\Wk9FunProject\obj\Debug\Wk9FunProject.FormPizza.resources
 C:\Users\Eric\Documents\Visual Studio 2015\Projects\Wk9Pizza\Wk9FunProject\obj\Debug\Wk9FunProject.Properties.Resources.resources
 C:\Users\Eric\Documents\Visual Studio 2015\Projects\Wk9Pizza\Wk9FunProject\obj\Debug\Wk9FunProject.csproj.GenerateResource.Cache
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
