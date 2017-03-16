@@ -13,6 +13,7 @@ namespace Wk9FunProject
     public partial class FormMain : Form
     {
         //Eric Holmboe
+        List<string> addItem = new List<string>();
         public FormMain()
         {
             InitializeComponent();

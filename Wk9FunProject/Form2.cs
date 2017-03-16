@@ -12,6 +12,13 @@ namespace Wk9FunProject
 {
     public partial class FormPizza : Form
     {
+        //global variable to pass to other forms
+        List<string> pizza = new List<string>();
+
+        public List<string> addPizza
+        {
+            get { return pizza; }
+        }
         public FormPizza()
         {
             InitializeComponent();
@@ -50,5 +57,27 @@ namespace Wk9FunProject
             this.Close();
             //comment
         }
+        
+
+        private void btnSubmit_Click(object sender, EventArgs e)
+        {
+            
+            pizza.Add(cboSize.Text);
+            pizza.Add(cboSauce.Text);
+            pizza.Add(cboCrust.Text);
+            foreach (object itemChecked in clbToppings.CheckedItems)
+            {
+                pizza.Add(itemChecked.ToString());
+            }
+            string result = "";
+            foreach (string item in pizza)
+            {
+                result += item + "\n";
+            }
+            MessageBox.Show(result);
+           
+            
+        }
+
     }
 }
