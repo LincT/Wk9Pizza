@@ -27,16 +27,36 @@ namespace Wk9FunProject
 
         private void btnPizza_Click(object sender, EventArgs e)
         {
-            //new FormPizza().Show();
-            string pizzatag;
-            Form pizzaForm = new FormPizza();
-            pizzaForm.ShowDialog();
-            if (pizzaForm.DialogResult == DialogResult.OK){
-                pizzatag = pizzaForm.Tag.ToString();
-                addItem(pizzatag);
+            try
+            {
+                //new FormPizza().Show();
+                string pizzaTag;
+                //string message = "Item: \n";
+                Form pizzaForm = new FormPizza();
+                pizzaForm.ShowDialog();
+                if (pizzaForm.DialogResult == DialogResult.OK)
+                {
+                    pizzaTag = pizzaForm.Tag.ToString();
+                    /*
+                    foreach (string item in pizzatag)
+                    {
+                        message += item;
+                    }
+                    */
+
+                    //MessageBox.Show(pizzaTag);
+                    //pizzaTag = pizzaForm.Tag.ToString();
+                    addItem(pizzaTag);
+                }
+
+
             }
-            
-            
+
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+
+            }
         }
 
         public void addItem(string itemTag)

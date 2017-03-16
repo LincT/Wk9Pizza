@@ -15,6 +15,7 @@ namespace Wk9FunProject
         //global variable to pass to other forms
         List<string> pizza = new List<string>();
 
+
         public List<string> addPizza
         {
             get { return pizza; }
@@ -70,11 +71,9 @@ namespace Wk9FunProject
                 pizza.Add(itemChecked.ToString());
             }
             string result = "Pizza: \n";
-            foreach (string item in pizza)
-            {
-                result += item + ", ";
-            }
-            MessageBox.Show(result);
+            
+            result += string.Join(", ", pizza);
+            //MessageBox.Show(result);
             this.Tag = result;
             this.DialogResult = DialogResult.OK;
         }

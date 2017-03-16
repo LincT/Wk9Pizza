@@ -70,6 +70,7 @@
             this.txtItems.Location = new System.Drawing.Point(98, 12);
             this.txtItems.Multiline = true;
             this.txtItems.Name = "txtItems";
+            this.txtItems.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.txtItems.Size = new System.Drawing.Size(178, 205);
             this.txtItems.TabIndex = 3;
             // 
