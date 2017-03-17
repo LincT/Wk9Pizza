@@ -32,10 +32,20 @@ namespace Wk9FunProject
 
         public void initialize()
         {
+            List<string> options = new List<string>
+            { "Chicken", "Hamburger", "Pepperoni", "Black Olives", "Green Olives",
+                "Spinach", "Mushrooms", "Garlic", "Anchovies", "Bell Pepper",
+                "Onions" };
             cboSize.SelectedIndex = 0;
             cboCrust.SelectedIndex = 0;
             cboSauce.SelectedIndex = 0;
             clbToppings.ClearSelected();
+            clbToppings.Items.Clear();
+            foreach (string newItem in options)
+            {
+                clbToppings.Items.Add(newItem);
+            }
+            
             foreach (int i in clbToppings.CheckedIndices)
             {
                 clbToppings.SetItemCheckState(i, CheckState.Unchecked);

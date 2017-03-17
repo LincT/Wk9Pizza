@@ -65,5 +65,10 @@ namespace Wk9FunProject
             //line with an item total maybe?
             txtItems.Text += itemTag;
         }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

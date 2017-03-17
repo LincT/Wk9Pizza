@@ -36,6 +36,7 @@
             this.cboSauce = new System.Windows.Forms.ComboBox();
             this.btnClear = new System.Windows.Forms.Button();
             this.btnCancel = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -91,7 +92,7 @@
             "Anchovies",
             "Bell Pepper",
             "Onions"});
-            this.clbToppings.Location = new System.Drawing.Point(12, 93);
+            this.clbToppings.Location = new System.Drawing.Point(12, 111);
             this.clbToppings.Name = "clbToppings";
             this.clbToppings.Size = new System.Drawing.Size(120, 109);
             this.clbToppings.TabIndex = 4;
@@ -142,11 +143,21 @@
             this.btnCancel.UseVisualStyleBackColor = true;
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(12, 95);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(95, 13);
+            this.label1.TabIndex = 9;
+            this.label1.Text = "Add your toppings:";
+            // 
             // FormPizza
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.cboSauce);
@@ -159,6 +170,7 @@
             this.Load += new System.EventHandler(this.FormPizza_Load);
             ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -172,5 +184,6 @@
         private System.Windows.Forms.ComboBox cboSize;
         private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.Button btnClear;
+        private System.Windows.Forms.Label label1;
     }
 }
