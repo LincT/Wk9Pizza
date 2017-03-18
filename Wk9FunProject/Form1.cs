@@ -16,8 +16,7 @@ namespace Wk9FunProject
         //Joseph Martin
         //Rhandee Livingston
         /*
-         * Still need to define prices for items, perhaps a jagged array referencing 
-         * [string,price]?
+         * Still need to define prices for items, done in sorted list.
          * output from pizza form can either be returned as a list or a string
          */
         public FormMain()
