@@ -15,7 +15,6 @@ namespace Wk9FunProject
         //global variable to pass to other forms
         List<string> pizza = new List<string>();
 
-
         public List<string> addPizza
         {
             get { return pizza; }

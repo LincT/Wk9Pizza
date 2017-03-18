@@ -28,15 +28,16 @@ namespace Wk9FunProject
         {
             try
             {
-                //new FormPizza().Show();
+                
                 string pizzaTag;
-                //string message = "Item: \n";
+                
                 Form pizzaForm = new FormPizza();
                 pizzaForm.ShowDialog();
                 if (pizzaForm.DialogResult == DialogResult.OK)
                 {
                     pizzaTag = pizzaForm.Tag.ToString();
                     /*
+                     //commented out list handling
                     foreach (string item in pizzatag)
                     {
                         message += item;
