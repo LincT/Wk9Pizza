@@ -31,11 +31,11 @@
             this.btnPizza = new System.Windows.Forms.Button();
             this.btnBeverage = new System.Windows.Forms.Button();
             this.btnExtras = new System.Windows.Forms.Button();
-            this.txtItems = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.lblSubTotal = new System.Windows.Forms.Label();
             this.btnCheckout = new System.Windows.Forms.Button();
             this.btnExit = new System.Windows.Forms.Button();
+            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
             this.SuspendLayout();
             // 
             // btnPizza
@@ -66,16 +66,6 @@
             this.btnExtras.Text = "Extras";
             this.btnExtras.UseVisualStyleBackColor = true;
             // 
-            // txtItems
-            // 
-            this.txtItems.AcceptsReturn = true;
-            this.txtItems.Location = new System.Drawing.Point(98, 12);
-            this.txtItems.Multiline = true;
-            this.txtItems.Name = "txtItems";
-            this.txtItems.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtItems.Size = new System.Drawing.Size(178, 205);
-            this.txtItems.TabIndex = 3;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -102,6 +92,7 @@
             this.btnCheckout.TabIndex = 6;
             this.btnCheckout.Text = "Checkout";
             this.btnCheckout.UseVisualStyleBackColor = true;
+            this.btnCheckout.Click += new System.EventHandler(this.btnCheckout_Click);
             // 
             // btnExit
             // 
@@ -114,6 +105,14 @@
             this.btnExit.UseVisualStyleBackColor = true;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
+            // checkedListBox1
+            // 
+            this.checkedListBox1.FormattingEnabled = true;
+            this.checkedListBox1.Location = new System.Drawing.Point(93, 12);
+            this.checkedListBox1.Name = "checkedListBox1";
+            this.checkedListBox1.Size = new System.Drawing.Size(179, 214);
+            this.checkedListBox1.TabIndex = 8;
+            // 
             // FormMain
             // 
             this.AcceptButton = this.btnCheckout;
@@ -121,11 +120,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnExit;
             this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.checkedListBox1);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnCheckout);
             this.Controls.Add(this.lblSubTotal);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.txtItems);
             this.Controls.Add(this.btnExtras);
             this.Controls.Add(this.btnBeverage);
             this.Controls.Add(this.btnPizza);
@@ -141,11 +140,11 @@
         private System.Windows.Forms.Button btnPizza;
         private System.Windows.Forms.Button btnBeverage;
         private System.Windows.Forms.Button btnExtras;
-        private System.Windows.Forms.TextBox txtItems;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lblSubTotal;
         private System.Windows.Forms.Button btnCheckout;
         private System.Windows.Forms.Button btnExit;
+        private System.Windows.Forms.CheckedListBox checkedListBox1;
     }
 }
 

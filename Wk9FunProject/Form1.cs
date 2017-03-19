@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Diagnostics;
 using System.Windows.Forms;
 
 namespace Wk9FunProject
@@ -69,6 +70,46 @@ namespace Wk9FunProject
         private void btnExit_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void btnCheckout_Click(object sender, EventArgs e)
+        {
+            SortedList<string, decimal> priceList = new SortedList<string, decimal>
+            { { "default", 0.00m },
+                { "Soda-2l",1.99m },
+                { "Dessert", 1.21m},
+                { "Fibonacci", 1123.58m }
+            };
+            
+        }
+        public decimal priceCheck(string item)
+        {
+            SortedList<string, decimal> priceList = new SortedList<string, decimal>
+            { { "default", 0.00m },
+                { "Soda-2l",1.99m },
+                { "Dessert", 1.21m},
+                {"Fibonacci", 1123.58m }
+            };
+            try
+            {
+                decimal price = priceList[item];
+                return price;
+            }
+            catch(KeyNotFoundException)
+            {
+                Debug.Write("Price missing:" + item + "returned 0.00m");
+                decimal price = 0.00m;
+                return price;
+
+            }
+            catch(Exception ex)
+            {
+                //the program should be friendly towards customers, 
+                //"honest" with programmers
+                Debug.Write(ex.Message);
+                throw;
+            }
+            
         }
     }
 }
